@@ -69,3 +69,7 @@ To find all words with a specific suffix:
         yo
         zero
         zoo
+
+Implemented in 2 different ways:
+ 1. Brute force -- comparing every letter to every other letter with slight logical modifications to improve speed
+ 2. Dictionary implementation -- improves speed by storing counts of each letter in a dictionary and comparing that to given word. 
